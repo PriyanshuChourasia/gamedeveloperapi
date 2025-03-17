@@ -1,8 +1,15 @@
 
 
+const port  = process.env.PORT || 8008; 
 
 
 
-export async function startSever(app){
-    app.listen(PORT)
+function startSever(app){
+    app.listen(port,()=>{
+        console.log(`Application is running at ${port}`);
+    });
 }
+
+
+
+export default startSever

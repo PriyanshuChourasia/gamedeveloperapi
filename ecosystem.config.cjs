@@ -3,6 +3,7 @@ module.exports = {
     name   : "Game Developer",
     script : "./src/index.js",
     output : "./src/logs/out.log",
-    watch : false
+    watch: true,
+    ignore_watch:["./src/logs/out.log"],
   }]
 }

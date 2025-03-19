@@ -2,6 +2,11 @@
 
 
 
+
+
+## API List
+
+
 ### PM2 process commands
 To use pm2 to run your application:
 
@@ -21,8 +26,15 @@ To kill process
 ```
     pm2 kill
 ```
-
 To run pm2 for development:
 ```
     pm2-dev start ecosystem.config.{js/cjs}
 ```
+
+To start this project:
+```
+    pm2 start ecosystem.config.{js/cjs}
+```
+To know more about PM2 commands follow:
+ - []  https://pm2.keymetrics.io/docs/usage/quick-start/
+

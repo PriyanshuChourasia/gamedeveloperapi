@@ -1,4 +1,3 @@
-import logger from "pino-http"
 
 export async function userApiRoutes(route){
     route.get("/user",(req,res)=>{
@@ -19,20 +18,20 @@ export async function userApiRoutes(route){
                     message:"Request Failed"
                 },
                 success:false
-            })
+            });
         }
 
         const userObj = {
             name:name,
             email:email,
             password:password
-        }
+        };
 
 
 
         return res.status(200).json({
             data: userObj,
             success:true
-        })
-    })
+        });
+    });
 }

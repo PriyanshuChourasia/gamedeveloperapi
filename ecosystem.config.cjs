@@ -4,6 +4,6 @@ module.exports = {
     script : "./src/index.js",
     output : "./src/logs/out.log",
     watch: true,
-    ignore_watch:["./src/logs/out.log"],
+    ignore_watch:["./src/logs/out.log","node_modules","Dockerfile","docker-compose.yml",".dockerignore"],
   }]
-}
+};

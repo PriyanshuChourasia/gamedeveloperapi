@@ -12,4 +12,4 @@ function startSever(app){
 
 
 
-export default startSever
+export default startSever;

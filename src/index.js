@@ -2,7 +2,7 @@ import express from "express";
 import startSever from "./server/index.js";
 import expressapiroutes from "./apis/index.js";
 import appMiddleware from "./middlewares/index.js";
-import connectDB from "./config/db.js";
+// import connectDB from "./config/db.js";
 
 const app = express();
 const router = express.Router();
@@ -22,4 +22,4 @@ appMiddleware(app);
 // expressapiroutes(app);
 expressapiroutes(router);
 startSever(app);
-connectDB();
+// connectDB();

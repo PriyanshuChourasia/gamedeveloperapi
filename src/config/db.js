@@ -1,4 +1,4 @@
-import {MongoClient, MongoServerError} from "mongodb";
+import {MongoClient} from "mongodb";
 import mongoose  from "mongoose";
 
 // Connection URL

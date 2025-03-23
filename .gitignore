@@ -1,4 +1,4 @@
 node_modules
 .env
 ecosystem.config.cjs
-logs/out.log
+src/logs/out.log
